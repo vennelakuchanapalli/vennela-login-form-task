@@ -1,0 +1,156 @@
+body {
+    background-image: url(/images/close-up-coffee-cup-book.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.login-container .p1 {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.login-container {
+    width: 30%;
+    height: 84%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 1px 1px 100px 10px;
+}
+
+.email {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.email input {
+    border: none;
+    padding-left: 10px;
+    width: 291px;
+}
+
+.password {
+    background-color: white;
+    padding: 10px;
+}
+
+.password input {
+    background-color: white;
+    padding-left: 10px;
+    border: none;
+    width: 291px;
+}
+
+.forgt-pw {
+    text-align: left;
+    color: white;
+}
+
+.login {
+    width: 40%;
+}
+
+.login button {
+    border: none;
+    background-color: #72b4e7;
+    font-weight: bold;
+    color: white;
+    padding: 13px;
+    width: 329px;
+}
+
+.r-lgin-wth {
+    color: white;
+}
+
+.facebook-instagram {
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+}
+
+.facebook button {
+    color: white;
+    width: 169%;
+    border: none;
+    background-color: #7272f0;
+    padding: 12px;
+
+}
+
+.instagram button {
+    width: 160px;
+    color: white;
+    margin-left: 34px;
+    padding: 12px;
+    border: none;
+    background-color: #f05d74;
+
+}
+
+.fcebk-icon {
+    margin-right: 5px;
+}
+
+.instagrm-icon {
+    margin-right: 5px;
+}
+
+.dnt-hv-ac {
+
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.login button:hover {
+    background-color: #7272f0;
+    cursor: pointer;
+    border: 1px solid skyblue;
+}
+
+.facebook button:active {
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #7272f0;
+}
+
+.facebook button:hover {
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #7272f0;
+    transition: 2s;
+}
+
+.instagram button:active {
+    background-color: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #f05d74;
+}
+
+.instagram button:hover {
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #f05d74;
+    transition: 2s;
+}
